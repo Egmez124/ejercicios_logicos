@@ -1,6 +1,9 @@
-function toArray() {
+function toArray(obj) {
     //Implementación
-    return 0;
+    let arr = [];
+    for (const [key, value] of Object.entries(obj)){
+        arr.push([key, value]);
+    }
+    return arr;
 }
-
 module.exports = toArray;

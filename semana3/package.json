@@ -7,6 +7,7 @@
         "test": "test"
     },
     "scripts": {
+        "start": "node challenge4.js",
         "test": "jest --verbose"
     },
     "keywords": [],
